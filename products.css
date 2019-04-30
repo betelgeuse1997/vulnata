@@ -1,0 +1,52 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+ /*----------Navigation-------*/
+
+#nav-bar .about
+{
+  position:sticky;
+  top:0;
+  z-index: 10;
+}
+
+
+/*------Products----*/
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+    #products
+    {
+    	padding-top: 50px;
+    	padding-bottom: 50px;
+    	color: #555;
+    }
+    h1{
+    	text-align: center;
+    	color: #555 !important;
+    	padding-bottom: 10px;
+    }
+#products h1::after{
+     	
+     content:'';
+				 background: #555;
+					display:block;
+					height: 3px;
+					width: 170px;
+					margin: 20px auto 5px;}

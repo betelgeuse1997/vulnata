@@ -1,0 +1,194 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+ /*----------Navigation-------*/
+
+#nav-bar .about
+{
+  position:sticky;
+  top:0;
+  z-index: 10;
+}
+
+
+
+
+#navbar .index
+{
+  position:sticky;
+  top:20;
+  z-index: 20;
+
+}
+
+
+
+ /*-----Slider----*/
+#slider
+{
+	width: 100%;
+}
+.carousel-caption{
+	top: 80%;
+	transform: translateY(-50%)
+	bottom:initial!important;
+}
+.carousel-caption h5 {
+	color: #fff;
+	font-size: 33px;
+}
+
+   /*-------About-----*/
+   #about
+   {
+   	padding-top: 20px;
+   	padding-bottom: 30px;
+   	color: #555;
+   	padding-left: 320px;
+   	text-align: center;
+   	margin: 40px;
+   }
+#about .btn
+{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	
+}
+.about-content
+{
+	padding-top: 20px;
+}
+
+
+     /*-----Services----*/
+     #services
+     {
+     	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(pic3.jpg);
+     	background-size:cover;
+     	background-position: center;
+     	color: #efefef !important;
+     	background-attachment: fixed;
+     	padding-top: 50px;
+     	padding-bottom: 50px;
+     	padding-left: 250px;
+        
+     }
+     #services h1
+     {
+     	text-align: center;
+     	color: #efefef !important;
+     	padding-bottom: 10px;
+     	padding-right: 250px;
+
+
+     }
+     #services h1::after{
+     	
+     content:'';
+				 background: #efefef;
+					display:block;
+					height: 3px;
+					width: 170px;
+					margin: 20px auto 5px;
+				}
+     
+     .services{
+     	margin-top: 30px;
+     	padding: 30px;
+
+     
+     }
+     .icon{
+     	font-size: 40px;
+     	margin: 20px auto;
+     	padding: 20px;
+     	height: 80px;
+     	width: 80px;
+     	border: 1px solid #fff;
+     	border-radius: 50%;
+
+     }
+     #services p{
+     	font-size: 15px;
+     	color: #ccc;
+
+
+     }
+     
+     
+
+
+
+
+
+
+
+
+    /**-----TEAM----**/
+    #team
+    {
+    	padding-top: 50px;
+    	padding-bottom: 50px;
+    	color: #555;
+    }
+    h1{
+    	text-align: center;
+    	color: #555 !important;
+    	padding-bottom: 10px;
+    }
+#team h1::after{
+     	
+     content:'';
+				 background: #555;
+					display:block;
+					height: 3px;
+					width: 170px;
+					margin: 20px auto 5px;
+				}
+ .column {
+  float: left;
+  width: 33.33%;
+  padding-right: 100px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+  /*-----CONTACTS---*/
+   #contact {
+  	
+  	padding-top: 20px;
+  	padding- bottom: 30px;
+  	text-align: center;
+  	color: #000;
+  	padding-left: 10px;
+  	
+  }
+  .contact-form {
+  	padding: 15px;
+  	padding-left: 200px;
+  	color: #efefef;
+
+  }
+  .form-control {
+  	border-radius: 0 !important;
+  	border: none !important; 
+  	color: #efefef;
+  	text-align: left; 
+  }
+  ::placeholder {
+  	color: #999 !important;} 
+
+
+/*----Footer---*/
+
+#footer {
+  padding-top: 10px;
+}
+

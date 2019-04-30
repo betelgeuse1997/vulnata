@@ -1,0 +1,75 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+ /*----------Navigation-------*/
+
+#nav-bar .about
+{
+  position:sticky;
+  top:0;
+  z-index: 10;
+}
+
+
+ /*-----Aboutus----*/
+     #aboutus
+     {
+     	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(about.png);
+     	background-size:cover;
+     	background-position: center;
+     	color: #efefef !important;
+     	background-attachment: fixed;
+     	padding-top: 50px;
+     	padding-bottom: 50px;
+     	padding-left: 250px;
+        
+     }
+
+     #aboutus h1
+     {
+     	text-align: center;
+     	color: #efefef !important;
+     	padding-bottom: 10px;
+     	padding-right: 250px;
+
+
+     }
+
+       #aboutus h1::after{
+     	
+     content:'';
+				 background: #efefef;
+					display:block;
+					height: 3px;
+					width: 170px;
+					margin: 20px auto 5px;
+				}
+     
+     .aboutus{
+     	margin-top: 30px;
+     	padding: 50px;
+
+     
+     }
+
+     .icon{
+     	font-size: 100px;
+     	margin: 80px auto;
+     	padding: 10px;
+     	height: 100px;
+     	width: 100px;
+     	padding-left: 55px;
+
+     }
+     #aboutus p{
+     	font-size: 15px;
+     	color: #ccc;
+     	padding-left: 100px;
+
+
+     }
+
